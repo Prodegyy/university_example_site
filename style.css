@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.background {
+    opacity: 80%;
+}
+header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/banner.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header-line {
+    padding: 10px 6%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-headline, .title-text{
+    color: white;
+    text-align: center;
+}
+
+.title-headline {
+    font-size: 60px;
+    margin-top: 250px;
+}
+
+.title-text {
+    margin: 30px 200px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navigation a {
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    transition: all 0.5s ease;
+
+
+}
+
+.navigation a:hover {
+    padding-bottom: 4px;
+    color: red;
+    border-bottom: 3px solid;
+}
+
+.courses-heading {
+    font-size: 45px;
+    text-align: center;
+}
+.div-courses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.course-1, .course-2, .course-3 {
+    background-color: rgb(252, 225, 187);
+    border: 1px solid rgb(193, 165, 124);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-bottom: 100px;
+}
+
+.course-heading {
+    font-size: 25px;
+}
+
+.course-1:hover, .course-2:hover, .course-3:hover {
+    box-shadow: 1px 1px 10px;
+}
+
+.courses-text {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.campus-london {
+    border: 1px solid rgb(193, 165, 124);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-bottom: 100px;
+    background-image: url("images/london.png");
+    background-size: cover;
+}
+
+.campus-nyc {
+    order: 1px solid rgb(193, 165, 124);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-bottom: 100px;
+    background-image: url("images/newyork.png");
+    background-size: cover;
+}
+
+.campus-washington {
+    order: 1px solid rgb(193, 165, 124);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-bottom: 100px;
+    background-image: url("images/washington.png");
+    background-size: cover;
+}
+
+.campus-heading {
+    color: ;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+.campus-washington:hover {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/washington.png");
+    color:rgb(221, 133, 211);
+}
+
+.campus-london:hover {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/london.png");
+    color:rgb(221, 133, 211);
+}
+.campus-nyc:hover {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/newyork.png");
+    color:rgb(221, 133, 211);
+}
